@@ -1,0 +1,34 @@
+.titulo {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: gray;
+}
+.post {
+    background: white;
+    width: 500px;
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.seccionA {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;
+}
+.seccionC {
+    padding: 5px;
+}
+    
+img {
+     width: 100%;
+}
+.feed .post:first-child {
+    margin-top: 20px;
+}
